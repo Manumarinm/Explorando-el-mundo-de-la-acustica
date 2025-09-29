@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando el Mundo de la Acústica</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="icon" type="image/x-icon" href="bann.png">
+</head>
+<body>
+    <!-- Banner superior -->
+    <header>
+        <div class="banner">
+            <div class="banner-content">
+                <h1>Explorando el Mundo de la Acústica</h1>
+                <p>Descubre la ciencia del sonido y sus maravillas</p>
+            </div>
+        </div>
+        <!-- Menú de navegación -->
+        <nav class="menu">
+            <ul>
+                <li><a href="#" id="link-que-es">¿Qué es?</a></li>
+                <li><a href="#" id="link-actividades">Actividades Prácticas</a></li>
+                <li><a href="#" id="link-video">Material de apoyo</a></li>
+                <li><a href="#" id="link-evaluacion">Evaluación</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Sección ¿Qué es? -->
+        <section id="que-es" class="seccion activa">
+            <h2>¿Qué es la Acústica?</h2>
+            <div class="contenido">
+                <div class="intro">
+                    <p>La <strong>acústica</strong> es la rama de la física que estudia el sonido: su generación, propagación y recepción en distintos medios, así como su percepción y aplicaciones tecnológicas. Es una ciencia multidisciplinaria que va desde la física hasta la biología y las ciencias sociales. Considera el sonido como una vibración que se propaga mecánicamente en sólidos, líquidos o gases, y busca explicar este fenómeno mediante leyes y fórmulas matemáticas.</p>
+                </div>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <div class="card-content">
+                            <h3>¿Cómo se propaga?</h3>
+                            <div class="card-with-image">
+                                <p>La propagación del sonido es cómo las ondas sonoras viajan en un medio material (aire, agua o sólidos), transmitiendo vibraciones y energía que disminuye con la distancia. Su velocidad depende de la densidad, elasticidad y temperatura del medio. Puede ser directa o reflejada, y presenta fenómenos como interferencia y resonancia.</p>
+                                <div class="image-container">
+                                    <img src="propag.png" alt="Propagación del sonido" class="info-image expandable">
+                                    <div class="image-overlay">
+                                        <button class="expand-btn">🔍</button>
+                                        <a href="propag.png" download="propagacion-sonido.png" class="download-btn">📥</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="card-content">
+                            <h3>Intensidad</h3>
+                            <p>La intensidad sonora es la cantidad de energía que pasa por unidad de superficie y tiempo, es decir, la potencia sonora por unidad de área. Mide el flujo de energía acústica a través de una superficie y se puede obtener en cualquier campo sonoro, incluso en presencia de ruido de fondo.</p>
+                            <p>Las fuentes sonoras irradian una potencia sonora que genera presión sonora, que es lo que percibimos como sonido.</p>
+                            <div class="differences">
+                                <h4>Diferencias:</h4>
+                                <ul>
+                                    <li><strong>Potencia sonora:</strong> Energía total que emite la fuente</li>
+                                    <li><strong>Intensidad sonora:</strong> Potencia distribuida en un área</li>
+                                    <li><strong>Presión sonora:</strong> Efecto que sentimos y medimos</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="card-content">
+                            <h3>Propiedades del sonido</h3>
+                            <div class="card-with-image">
+                                <div class="text-content">
+                                    <p>Las cualidades del sonido son las características que nos permiten diferenciar un sonido de otro:</p>
+                                    <ul>
+                                        <li><strong>Intensidad:</strong> Cantidad de energía acústica, percibida como volumen</li>
+                                        <li><strong>Tono:</strong> Depende de la frecuencia (grave/agudo)</li>
+                                        <li><strong>Timbre:</strong> Cualidad que identifica cada sonido</li>
+                                        <li><strong>Duración:</strong> Tiempo que permanece un sonido</li>
+                                    </ul>
+                                </div>
+                                <div class="image-container">
+                                    <img src="propiee.png" alt="Propiedades del sonido" class="info-image large expandable">
+                                    <div class="image-overlay">
+                                        <button class="expand-btn">🔍</button>
+                                        <a href="propiee.png" download="propiedades-sonido.png" class="download-btn">📥</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="card-content">
+                            <h3>Características</h3>
+                            <ul>
+                                <li><strong>Frecuencia:</strong> Número de vibraciones por segundo (Hz)</li>
+                                <li><strong>Amplitud:</strong> Intensidad o potencia acústica (volumen)</li>
+                                <li><strong>Longitud de onda:</strong> Distancia entre dos máximos consecutivos</li>
+                                <li><strong>Potencia acústica:</strong> Energía emitida por unidad de tiempo</li>
+                                <li><strong>Espectro de frecuencia:</strong> Distribución de energía por frecuencia</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="card-content">
+                            <h3>¿A qué se debe?</h3>
+                            <div class="card-with-image">
+                                <p>Un sonido se genera cuando las partículas se mueven a través de un medio saliendo de su estado de reposo. El sonido existe porque todo lo que vibra hace mover el aire a su alrededor, creando ondas invisibles que viajan hasta nosotros. Nuestros oídos funcionan como antenas: el tímpano capta esas ondas y el cerebro las traduce en lo que llamamos escuchar.</p>
+                                <div class="image-container">
+                                    <img src="a que se debe.png" alt="¿A qué se debe el sonido?" class="info-image expandable">
+                                    <div class="image-overlay">
+                                        <button class="expand-btn">🔍</button>
+                                        <a href="a que se debe.png" download="que-se-debe-sonido.png" class="download-btn">📥</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="card-content">
+                            <h3>Conceptos importantes</h3>
+                            <ul>
+                                <li><strong>Reflexión:</strong> Cuando el sonido rebota en una superficie</li>
+                                <li><strong>Velocidad de propagación:</strong> Aire ≈ 340 m/s, Agua ≈ 1460 m/s</li>
+                                <li><strong>Materiales absorbentes:</strong> Reducen la reflexión del sonido</li>
+                                <li><strong>Reverberación:</strong> Múltiples reflexiones del sonido</li>
+                                <li><strong>Audífonos:</strong> Tecnología para mejorar la capacidad auditiva</li>
+                                <li><strong>Sistemas de amplificación:</strong> Distribuyen sonido en espacios grandes</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="card-content">
+                            <h3>Fórmulas fundamentales</h3>
+                            <div class="formula">
+                                <p>v = λ × f</p>
+                                <small>Velocidad = Longitud de onda × Frecuencia</small>
+                            </div>
+                            <div class="formula">
+                                <p>β = 10 log₁₀(I/I₀)</p>
+                                <small>Nivel de intensidad (decibelios)</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="aplicaciones">
+                    <h3>Aplicaciones en la vida diaria</h3>
+                    <div class="aplicaciones-grid">
+                        <div class="aplicacion">Sistemas de audio</div>
+                        <div class="aplicacion">Aislamiento acústico</div>
+                        <div class="aplicacion">Ecografías médicas</div>
+                        <div class="aplicacion">Sonar submarino</div>
+                        <div class="aplicacion">Instrumentos musicales</div>
+                        <div class="aplicacion">Estudios de grabación</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Actividades Prácticas -->
+        <section id="actividades" class="seccion">
+            <h2>Actividades Prácticas</h2>
+            <div class="contenido">
+                <div class="actividades-menu">
+                    <button class="actividad-btn activo" data-actividad="explorador">Explorador de Sonidos</button>
+                    <button class="actividad-btn" data-actividad="mapa">Mapa Interactivo</button>
+                    <button class="actividad-btn" data-actividad="arrastrar">Arrastra y Suelta</button>
+                </div>
+                
+                <!-- Explorador de Sonidos -->
+                <div id="explorador" class="actividad activa">
+                    <h3>Explorador de Sonidos</h3>
+                    <p class="instrucciones">Escucha cada sonido e identifica si es agudo o grave. ¡Presta atención!</p>
+                    
+                    <div class="sonidos-container">
+                        <div class="sonido-card">
+                            <button class="play-sonido" data-sonido="grave">
+                                <span class="icon">🎵</span>
+                                Sonido 1
+                            </button>
+                            <audio class="audio-element" src="church-bell-273815.mp3"></audio>
+                            <div class="respuesta">
+                                <select class="selector-sonido">
+                                    <option value="">Selecciona...</option>
+                                    <option value="agudo">Agudo</option>
+                                    <option value="grave">Grave</option>
+                                </select>
+                                <button class="verificar">Verificar</button>
+                            </div>
+                            <div class="resultado"></div>
+                        </div>
+                        
+                        <div class="sonido-card">
+                            <button class="play-sonido" data-sonido="agudo">
+                                <span class="icon">🎵</span>
+                                Sonido 2
+                            </button>
+                            <audio class="audio-element" src="heartbreaking-baby-crying-sound-effect-realistic-amp-high-quality-311648.mp3"></audio>
+                            <div class="respuesta">
+                                <select class="selector-sonido">
+                                    <option value="">Selecciona...</option>
+                                    <option value="agudo">Agudo</option>
+                                    <option value="grave">Grave</option>
+                                </select>
+                                <button class="verificar">Verificar</button>
+                            </div>
+                            <div class="resultado"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="puntuacion">
+                        <p>Puntuación: <span id="puntuacion-sonidos">0</span>/10</p>
+                    </div>
+                </div>
+                
+                <!-- Mapa Interactivo -->
+                <div id="mapa" class="actividad">
+                    <h3>Mapa Interactivo Acústico</h3>
+                    <p class="instrucciones">Explora los puntos en el mapa para descubrir los fenómenos acústicos que ocurren alrededor del mundo.</p>
+                    
+                    <div class="mapa-container">
+                        <img src="Diseño sin título.png" alt="Mapa mundial" class="mapa-imagen">
+                        
+                        <div class="puntos-mapa">
+                            <div class="punto-mapa" style="top: 35%; left: 50%;" data-id="1">
+                                <div class="punto-icon">🔊</div>
+                            </div>
+                            <div class="punto-mapa" style="top: 60%; left: 25%;" data-id="2">
+                                <div class="punto-icon">🌲</div>
+                            </div>
+                            <div class="punto-mapa" style="top: 30%; left: 20%;" data-id="3">
+                                <div class="punto-icon">🎙️</div>
+                            </div>
+                            <div class="punto-mapa" style="top: 45%; left: 40%;" data-id="4">
+                                <div class="punto-icon">🏥</div>
+                            </div>
+                            <div class="punto-mapa" style="top: 25%; left: 75%;" data-id="5">
+                                <div class="punto-icon">🎵</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="modal-mapa" id="modal-mapa">
+                        <div class="modal-contenido">
+                            <span class="cerrar">&times;</span>
+                            <h3 id="modal-titulo"></h3>
+                            <p id="modal-descripcion"></p>
+                            <div class="pregunta-mapa">
+                                <p id="modal-pregunta"></p>
+                                <textarea id="modal-respuesta" placeholder="Escribe tu respuesta aquí..."></textarea>
+                                <button id="modal-verificar">Verificar respuesta</button>
+                                <p id="modal-resultado"></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="puntuacion">
+                        <p>Puntuación: <span id="puntuacion-mapa">0</span>/10</p>
+                    </div>
+                </div>
+                
+                <!-- Arrastra y Suelta -->
+                <div id="arrastrar" class="actividad">
+                    <h3>Arrastra y Suelta</h3>
+                    <p class="instrucciones">Escucha cada sonido y arrástralo a la longitud de onda que le corresponde.</p>
+                    
+                    <div class="arrastrar-container">
+                        <div class="sonidos-lista">
+                            <h4>Sonidos</h4>
+                            <div class="sonido-item" draggable="true" data-sonido="agudo">
+                                <button class="play-mini">▶️</button>
+                                Sonido Agudo
+                                <audio src="whistling-whooshes-229207.mp3"></audio>
+                            </div>
+                            <div class="sonido-item" draggable="true" data-sonido="grave">
+                                <button class="play-mini">▶️</button>
+                                Sonido Grave
+                                <audio src="thud-sound-effect-405470.mp3"></audio>
+                            </div>
+                        </div>
+                        
+                        <div class="ondas-lista">
+                            <h4>Longitudes de Onda</h4>
+                            <div class="onda-destino" data-onda="larga">
+                                <p>Longitud Larga</p>
+                                <div class="onda-visual larga"></div>
+                            </div>
+                            <div class="onda-destino" data-onda="corta">
+                                <p>Longitud Corta</p>
+                                <div class="onda-visual media"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="puntuacion">
+                        <p>Puntuación: <span id="puntuacion-arrastrar">0</span>/10</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Video Interactivo -->
+        <section id="video" class="seccion">
+            <h2>Material de apoyo</h2>
+            <div class="contenido">
+                <p class="instrucciones">A continuación puedes observar un mapa mental que te ayudará a reforzar tus conocimeintos</p>
+                
+                <div class="video-container">
+                    <img src="1.png" alt="Infografía sobre acústica">
+                </div>
+
+                <p class="instrucciones">Ahora te preguntarás ¿Cómo oímos? Pues aquí lo descubrirás </p>
+                
+                <div class="video-player-container">
+                    <div class="video-wrapper">
+                        <video id="video-educativo" controls>
+                            <source src="WhatsApp Video 2025-09-26 at 6.34.42 PM.mp4" type="video/mp4">
+                            Tu navegador no soporta el elemento de video.
+                        </video>
+                    </div>
+                </div>
+                
+                <div class="preguntas-video">
+                    <h3>Es hora de afianzar tus conocimeintos!<br>
+                    Responde las siguientes preguntas:</h3>
+                    <div class="pregunta">
+                        <p>1. ¿Qué es el sonido y cómo se propagan según el video?</p>
+                        <textarea placeholder="Escribe tu respuesta aquí..."></textarea>
+                    </div>
+                    <div class="pregunta">
+                        <p>2. Menciona dos aplicaciones prácticas de la acústica que hayas aprendido.</p>
+                        <textarea placeholder="Escribe tu respuesta aquí..."></textarea>
+                    </div>
+                    <button id="verificar-video" class="btn-primary">Verificar respuestas</button>
+                    <div class="resultado-video"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Evaluación -->
+        <section id="evaluacion" class="seccion">
+            <h2>Evaluación Final</h2>
+            <div class="contenido">
+                <p class="instrucciones">Responde las siguientes preguntas para evaluar tus conocimientos sobre acústica.</p>
+                
+                <form id="evaluacion-form">
+                    <div class="pregunta-evaluacion">
+                        <p>1. ¿Qué es la frecuencia de un sonido?</p>
+                        <label><input type="radio" name="p1" value="a"> a) La altura del sonido</label>
+                        <label><input type="radio" name="p1" value="b"> b) El número de ciclos por segundo</label>
+                        <label><input type="radio" name="p1" value="c"> c) La intensidad del sonido</label>
+                        <label><input type="radio" name="p1" value="d"> d) La calidad del sonido</label>
+                    </div>
+                    
+                    <div class="pregunta-evaluacion">
+                        <p>2. ¿Cuál de estos sonidos tiene mayor frecuencia?</p>
+                        <label><input type="radio" name="p2" value="a"> a) El rugido de un león</label>
+                        <label><input type="radio" name="p2" value="b"> b) El canto de un pájaro</label>
+                        <label><input type="radio" name="p2" value="c"> c) La voz de un hombre adulto</label>
+                        <label><input type="radio" name="p2" value="d"> d) El sonido de un tambor</label>
+                    </div>
+                    
+                    <div class="pregunta-evaluacion">
+                        <p>3. ¿Qué fenómeno acústico ocurre cuando un sonido rebota en una superficie?</p>
+                        <label><input type="radio" name="p3" value="a"> a) Refracción</label>
+                        <label><input type="radio" name="p3" value="b"> b) Difracción</label>
+                        <label><input type="radio" name="p3" value="c"> c) Reflexión</label>
+                        <label><input type="radio" name="p3" value="d"> d) Reverberación</label>
+                    </div>
+                    
+                    <div class="pregunta-evaluacion">
+                        <p>4. ¿En qué medio el sonido se propaga más rápido?</p>
+                        <label><input type="radio" name="p4" value="a"> a) Aire</label>
+                        <label><input type="radio" name="p4" value="b"> b) Agua</label>
+                        <label><input type="radio" name="p4" value="c"> c) Acero</label>
+                        <label><input type="radio" name="p4" value="d"> d) Vacío</label>
+                    </div>
+                    
+                    <div class="pregunta-evaluacion">
+                        <p>5. ¿Qué propiedad del sonido determina si es agudo o grave?</p>
+                        <label><input type="radio" name="p5" value="a"> a) Amplitud</label>
+                        <label><input type="radio" name="p5" value="b"> b) Timbre</label>
+                        <label><input type="radio" name="p5" value="c"> c) Tono</label>
+                        <label><input type="radio" name="p5" value="d"> d) Intensidad</label>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary">Enviar evaluación</button>
+                </form>
+                
+                <div class="resultado-evaluacion">
+                    <h3>Resultado: <span id="puntuacion-final">0</span>/10</h3>
+                    <p id="mensaje-evaluacion"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p> Explorando el Mundo de la Acústica - Colcristo</p>
+    </footer>
+
+    <!-- Modal para imágenes expandidas -->
+    <div id="image-modal" class="image-modal">
+        <span class="image-close">&times;</span>
+        <img class="image-modal-content" id="expanded-image">
+        <div class="image-modal-actions">
+            <a id="download-expanded" class="btn-primary" download>Descargar imagen</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
